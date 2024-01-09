@@ -1,0 +1,10 @@
+1. Running time and memory usage
+    ~1.4s averaged running time per patient using < 600MB RAM on a commodity GPU (NVIDIA 1080Ti) while ~53s with ~3000MB RAM for the TotalSegmentator tool with size (249, 188, 213)
+
+2. Model evaluation on the TotalSegmentator test dataset (243 patients)
+    Micro-level: accuracy (83.67%), precision (85.12%), recall (87.71%), F1 score (86.40%)
+    Macro-level: accuracy (83.01%), precision (86.33%), recall (86.08%), F1 score (84.95%)
+    
+3. Model evaluation on the BTCV dataset (13 classes, 30 patients)
+    Micro-level: accuracy (90.00%), precision (99.43%), recall (90.46%), F1 score (94.74%)
+    Macro-level: accuracy (90.00%), precision (99.47%), recall (90.49%), F1 score (94.03%)
