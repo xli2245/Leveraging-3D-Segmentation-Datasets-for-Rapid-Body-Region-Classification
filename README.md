@@ -1,6 +1,6 @@
 # Leveraging 3D Segmentation Datasets for Rapid Body Region Classification
 This study aims at efficient 2D body region classification with position information by leveraging 3D segmentation dataset. Here is an example patient from the test dataset. From left to right are the Reference 3D Segmentation and 2D Flattened CT image, in the coronal view, with a visualization of the 2D classification reference and model’s prediction. In the 2D classification visualization, the horizontal axis represents classes, denoted by different colors, while the vertical axis corresponds to the slice location.
-![Example result](https://github.com/xli2245/Leveraging-3D-Segmentation-Datasets-for-Rapid-Body-Region-Classification/blob/main/5-best_model/result_visualization.png)
+![Example result](https://github.com/xli2245/Leveraging-3D-Segmentation-Datasets-for-Rapid-Body-Region-Classification/blob/main/figures/result_visualization.png)
 ## Table of Contents
 - [Setup](#setup)
 - [Environment](#environment)
@@ -51,7 +51,7 @@ python data_split.py --data_path your_custom_data_path --n_folds 5 --save_folder
 python ./3-train_and_predict/train.py
 ```
 Here is the training process.
-![Training process](https://github.com/xli2245/Leveraging-3D-Segmentation-Datasets-for-Rapid-Body-Region-Classification/blob/main/5-best_model/training.png)
+![Training process](https://github.com/xli2245/Leveraging-3D-Segmentation-Datasets-for-Rapid-Body-Region-Classification/blob/main/figures/training.png)
 
 ### Model prediction
 ```
